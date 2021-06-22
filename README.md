@@ -9,3 +9,10 @@ PCHOME線上購物爬蟲
 因PCHOME的介面較為複雜，有許多分類可以點選，因此設置了許多不同功能的Function，來執行網頁上相對應的功能，像是搜尋商品、商品狀態、商品分類等等。
 ### 搜尋商品
 
+![image](https://github.com/kzn641/1071816/blob/main/%E5%95%86%E5%93%81%E5%88%86%E9%A1%9E.PNG)
+### 商品狀態
+
+![image](https://github.com/kzn641/1071816/blob/main/%E5%95%86%E5%93%81%E5%88%86%E9%A1%9E.PNG)
+### 商品分類
+
+![image](https://github.com/kzn641/1071816/blob/main/%E5%95%86%E5%93%81%E5%88%86%E9%A1%9E.PNG)
