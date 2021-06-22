@@ -104,20 +104,6 @@ class PchomeSpider():
             return []
         return data
 
-    def get_products_specification(self, products_id):
-        """取得商品規格種類
-
-        :param products_id: 商品 ID
-        :return data: 商品規格種類
-        """
-        if type(products_id) == list:
-            products_id = ','.join(products_id)
-        url = f'https://ecapi.pchome.com.tw/ecshop/prodapi/v2/prod/spec&id={products_id}&_callback=jsonpcb_spec'
-        data = self.request_get(url, to_json=False)
-        # 去除前後 JS 語法字串
-        data = json.loads(data[17:-48])
-        return data
-
     def get_search_category(self, keyword):
         """取得搜尋商品分類(網頁左側)
 
@@ -128,23 +114,13 @@ class PchomeSpider():
         data = self.request_get(url)
         return data
 
-    def get_search_categories_name(self, categories_id):
-        """取得商品子分類的名稱(網頁左側)
-
-        :param categories_id: 分類 ID
-        :return data: 子分類名稱資料
-        """
-        if type(categories_id) == list:
-            categories_id = ','.join(categories_id)
-        url = f'https://ecapi-pchome.cdn.hinet.net/cdn/ecshop/cateapi/v1.5/store&id={categories_id}&fields=Id,Name'
-        data = self.request_get(url)
-        return data
-
 
 if __name__ == '__main__':
     pchome_spider = PchomeSpider()
 
-    products = pchome_spider.search_products(keyword='滑鼠')
-    # products = pchome_spider.search_products(keyword='手機', shop='24h購物', sort='價錢由高至低', price_min=0, price_max=5000)
-    # print(len(products))
+    #products = pchome_spider.search_products(keyword='鍵盤')
+    #products = pchome_spider.get_products_sale_status(products_id='DCAH82-A900B51SJ')
+    products = pchome_spider.get_search_category(keyword='鍵盤')
     print(products[0])
+
+
