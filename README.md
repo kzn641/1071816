@@ -12,7 +12,7 @@ PCHOME線上購物爬蟲
 ![image](https://github.com/kzn641/1071816/blob/main/%E5%95%86%E5%93%81%E5%88%86%E9%A1%9E.PNG)
 ### 商品狀態
 
-![image](https://github.com/kzn641/1071816/blob/main/%E5%95%86%E5%93%81%E5%88%86%E9%A1%9E.PNG)
+![image](https://github.com/kzn641/1071816/blob/main/%E5%95%86%E5%93%81%E7%8B%80%E6%85%8B.PNG)
 ### 商品分類
 
 ![image](https://github.com/kzn641/1071816/blob/main/%E5%95%86%E5%93%81%E5%88%86%E9%A1%9E.PNG)
