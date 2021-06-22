@@ -9,10 +9,10 @@ PCHOME線上購物爬蟲
 因PCHOME的介面較為複雜，有許多分類可以點選，因此設置了許多不同功能的Function，來執行網頁上相對應的功能，像是搜尋商品、商品狀態、商品分類等等。
 ### User-Agent
 開始搜尋之前記得先加User-Agent，避免程式發生錯誤
-useragent圖片
+![image](https://github.com/kzn641/1071816/blob/main/useragent.PNG)
 ### Get
 使用Get套件來擷取資料
-get圖片
+![image](https://github.com/kzn641/1071816/blob/main/get.PNG)
 ### 搜尋商品
 將回傳的對應參數做設定，來達到在網頁相同功能的作用
 參數圖片
