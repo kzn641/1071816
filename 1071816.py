@@ -118,8 +118,8 @@ class PchomeSpider():
 if __name__ == '__main__':
     pchome_spider = PchomeSpider()
 
-    #products = pchome_spider.search_products(keyword='鍵盤')
-    #products = pchome_spider.get_products_sale_status(products_id='DCAH82-A900B51SJ')
+    products = pchome_spider.search_products(keyword='鍵盤')
+    products = pchome_spider.get_products_sale_status(products_id='DCAH82-A900B51SJ')
     products = pchome_spider.get_search_category(keyword='鍵盤')
     print(products[0])
 
